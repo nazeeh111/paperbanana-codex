@@ -104,8 +104,6 @@ Tests cover actual PNG content, coordinate fidelity, file preservation, invalid/
 
 [Validation scope and observed results](docs/validation.md) · [Research comparison](docs/comparison.md) · [Skill instructions](SKILL.md)
 
-## Foundations and license
+## License
 
-Flowcraft is an independent synthesis informed by [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) and related research on reference-guided composition, semantic graphics and iterative visual editing. It does not ship those systems' inference pipelines, models or benchmark figures, or claim their benchmark scores. Attribution and the comparison remain available in [provenance](references/upstream.md) and [NOTICE](NOTICE).
-
-Apache-2.0. See [LICENSE](LICENSE). Not affiliated with or endorsed by the cited projects.
+[Apache-2.0](LICENSE). Source and adaptation notices remain in [NOTICE](NOTICE).
