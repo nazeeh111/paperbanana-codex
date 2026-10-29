@@ -106,4 +106,4 @@ Tests cover actual PNG content, coordinate fidelity, file preservation, invalid/
 
 ## License
 
-[Apache-2.0](LICENSE). Source and adaptation notices remain in [NOTICE](NOTICE).
+[Apache-2.0 and source terms](LICENSE).

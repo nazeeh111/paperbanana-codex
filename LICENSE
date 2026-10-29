@@ -200,3 +200,8 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+Retained source terms
+
+Copyright 2026 Google LLC. Apache License, Version 2.0.
+Local rendering, validation, export, installation and test helpers are supplied separately from upstream model inference code, model weights and benchmark figures, which are not included.
