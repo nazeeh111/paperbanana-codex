@@ -1,22 +1,16 @@
-<p align="center">
-  <img src="assets/hero.png" alt="Flowcraft: make the idea clear. Editable diagrams and scientific figures for Codex." width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/nazeeh111/flowcraft-codex/actions/workflows/test.yml"><img src="https://github.com/nazeeh111/flowcraft-codex/actions/workflows/test.yml/badge.svg" alt="Verification status" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Apache 2.0 license" /></a>
-  <a href="https://github.com/nazeeh111/flowcraft-codex/releases/latest"><img src="https://img.shields.io/github/v/release/nazeeh111/flowcraft-codex" alt="Latest release" /></a>
-</p>
-
 # Flowcraft
 
-**Clear diagrams. Faithful figures. Sources you can keep editing.**
+**Editable diagrams and scientific figures in your Codex session.**
 
-Flowcraft gives Codex a focused workflow for flowcharts, method diagrams and scientific figures: understand the source, compose the argument, render the result and repair what the viewer actually sees. It works in your existing Codex session with your selected model and tools.
+Turn source material into a flowchart, method diagram or data-driven figure, inspect the rendered result, and keep the SVG source for revision. Flowcraft uses your selected model and available tools.
 
 No separate model API key, provider wrapper or background service. Local SVG, PNG and basic vector PDF tools use free open-source libraries. Your normal Codex subscription limits still apply.
 
-[Install](#install) · [Try it](#try-it) · [Examples](#examples) · [How it adapts](#built-for-changing-models-and-tools) · [Evidence](docs/validation.md)
+[Install](#install) · [Try it](#try-it) · [Examples](#examples) · [How it adapts](#built-for-changing-models-and-tools) · [Evidence](docs/validation.md) · [Tests](https://github.com/nazeeh111/flowcraft-codex/actions/workflows/test.yml) · [Latest release](https://github.com/nazeeh111/flowcraft-codex/releases/latest)
+
+![Sensor validation and confidence decision flow](examples/rendered/decision-flow.png)
+
+A diagram from the bundled synthetic example, with [editable SVG](examples/rendered/decision-flow.svg) and [source brief](examples/brief.md#decision-flow-and-revision). It demonstrates an output path, not an empirical research result.
 
 ## Install
 
@@ -57,9 +51,7 @@ The examples include their source brief and synthetic data. They demonstrate con
 
 ### A decision with every branch explicit
 
-![Sensor validation and confidence decision flow](examples/rendered/decision-flow.png)
-
-[Editable SVG](examples/rendered/decision-flow.svg) · [Source and revision check](examples/brief.md#decision-flow-and-revision)
+[Inspect the decision diagram and editable source above](#flowcraft). The [source and revision check](examples/brief.md#decision-flow-and-revision) record its branches and revision.
 
 ### A method with distinct training and inference paths
 
